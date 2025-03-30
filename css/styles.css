@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(77, 148, 255);
+}
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background: hsl(0, 11%, 18%);
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+h2 {
+    transition: color 0.5s ease;
+}
+article {
+    padding: 20px;
+    background: #508db6;
+}
+section {
+    padding: 20px;
+    background: #363c3f;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 10px;
+}
+.imagen img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
